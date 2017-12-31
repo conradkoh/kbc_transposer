@@ -1,13 +1,4 @@
-'use strict'
-
-function transposer() {
-    var app = {}
-    app.f1 = function () {
-        console.log('123');
-    }
-    return app;
-}
-
-module.exports.f2 = function () {
-    console.log('f2')
+var TransposerLib = require('./lib/Transposer')
+module.exports.Transpose = function (text) {
+    return TransposerLib.TransposeLines(text);
 }
