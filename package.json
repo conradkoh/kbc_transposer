@@ -1,0 +1,27 @@
+{
+  "name": "kbc_transposer",
+  "version": "1.0.0",
+  "description": "Transpose any test to chords",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --debug-brk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conradkoh/kbc_transposer.git"
+  },
+  "keywords": [
+    "Tranposer",
+    "Music",
+    "Chords"
+  ],
+  "author": "Conrad Koh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/conradkoh/kbc_transposer/issues"
+  },
+  "homepage": "https://github.com/conradkoh/kbc_transposer#readme",
+  "dependencies": {
+    "mocha": "^4.1.0"
+  }
+}
